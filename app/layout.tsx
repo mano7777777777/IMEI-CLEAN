@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 export const metadata: Metadata = {
-  title: 'StockPilot — Suivi des ventes de téléphones',
-  description: 'Pilotez les stocks, ravitaillements, ventes, prêts et rapports de vos équipes.',
+  title: 'IMEI Cleaner & Exporter',
+  description: "Nettoyez, validez, comparez et exportez vos listes d'IMEI.",
   openGraph: {
     title: 'StockPilot', description: 'Le pilotage terrain, sans angle mort.',
     images: [{ url: '/og.png', width: 1200, height: 630, alt: 'StockPilot' }],
