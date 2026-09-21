@@ -8,11 +8,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "mobile:sync": "npm run build && cap sync android",
+    "mobile:apk": "npm run mobile:sync && cd android && gradlew.bat assembleDebug",
     "start": "next start",
     "lint": "oxlint",
     "format": "oxfmt"
   },
   "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/core": "^7.4.4",
     "@base-ui/react": "1.7.0",
     "@shadcn/react": "0.3.0",
     "class-variance-authority": "0.7.1",
@@ -39,6 +43,7 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@capacitor/cli": "^7.4.4",
     "@cloudflare/vite-plugin": "1.37.1",
     "@cloudflare/workers-types": "4.20260515.1",
     "@openai/sites-vite-plugin": "0.2.0",
