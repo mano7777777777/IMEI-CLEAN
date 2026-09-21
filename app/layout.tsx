@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import './globals.css';
 import './imei-verifier.css';
 export const metadata: Metadata = {
-  title: 'IMEI Clean Pro — Nettoyage et contrôle IMEI',
-  description: "Nettoyez, validez, comparez et exportez vos listes d'IMEI avec une interface professionnelle.",
+  title: 'IMEI Connect — Suivi des téléphones et des connexions FO',
+  description: "Suivez les IMEI connectés ou non et identifiez les FO qui n'ont pas encore connecté leur téléphone.",
   openGraph: {
-    title: 'IMEI Clean Pro', description: 'Nettoyage et contrôle professionnel de listes IMEI.',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'IMEI Clean Pro' }],
+    title: 'IMEI Connect', description: 'Chaque téléphone suivi. Chaque connexion identifiée.',
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'IMEI Connect' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'IMEI Clean Pro', description: 'Nettoyage et contrôle professionnel de listes IMEI.',
+    title: 'IMEI Connect', description: 'Chaque téléphone suivi. Chaque connexion identifiée.',
     images: ['/og.png'],
   },
 };
