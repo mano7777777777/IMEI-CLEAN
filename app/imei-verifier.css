@@ -1,0 +1,4 @@
+.hero-actions{display:flex;align-items:center;gap:18px;margin-top:22px}
+.verify-button,.empty-verify{border:0;background:var(--green);color:#fff;border-radius:9px;padding:12px 16px;display:flex;align-items:center;justify-content:center;gap:8px;font-size:11px;font-weight:750;cursor:pointer;box-shadow:0 8px 20px #0d624828}
+.verify-button svg,.empty-verify svg{width:15px}.empty-verify{margin-top:18px}.empty-report .empty-verify+section{margin-top:22px}
+@media(max-width:620px){.hero-actions{align-items:flex-start;flex-direction:column;gap:7px}}
